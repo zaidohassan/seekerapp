@@ -1,0 +1,36 @@
+.HeaderContainer {
+  width: 100vw;
+}
+
+.innerHeaderContainer {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+.seekerlogo {
+  width: 150px;
+}
+
+.navSearchCriteria {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  color: white;
+  margin-top: 1%;
+}
+
+@media (max-width: 600px) {
+  .HeaderContainer,
+  .innerHeaderContainer {
+    height: 10vh;
+  }
+  .navSearchCriteria {
+    display: none;
+  }
+}

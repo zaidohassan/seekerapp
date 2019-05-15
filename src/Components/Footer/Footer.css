@@ -1,0 +1,21 @@
+.FooterContainer {
+  background: #375777;
+  height: 8vh;
+  width: 100%;
+}
+.innerFooterContainer {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.FooterSearchCriteria {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 45%;
+  justify-content: space-evenly;
+}

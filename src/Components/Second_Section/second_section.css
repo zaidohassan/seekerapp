@@ -1,0 +1,45 @@
+.Second_Container {
+  height: 90vh;
+}
+
+.first_text {
+  margin: auto;
+  text-align: center;
+  width: 30vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  padding: 10vh;
+}
+
+#p {
+  padding: 4%;
+  padding-bottom: 5%;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#border {
+  border-bottom: 8px solid #f8a322;
+  width: 20vw;
+  margin: auto;
+}
+
+.second_text {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.pic1 {
+  text-align: center;
+  width: 20%;
+}
+
+.picHeader {
+  padding-top: 8%;
+  font-size: 25px;
+}
+
+#mountain {
+  padding-top: 5%;
+}

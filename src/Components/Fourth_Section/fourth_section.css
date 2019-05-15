@@ -1,0 +1,41 @@
+.container4 {
+  height: 100vh;
+  width: 100vw;
+}
+.innerContainer4 {
+  height: 95vh;
+  width: 70vw;
+  margin: auto;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+#border4 {
+  border-bottom: 5px solid #f8a322;
+  padding-top: 4vh;
+  width: 24vw;
+  margin: auto;
+}
+
+#text4 {
+  margin: auto;
+  width: 30vw;
+}
+
+.pics {
+  width: 70vw;
+  height: 20vh;
+  margin: 'auto';
+  display: flex;
+  align-items: center;
+}
+
+#pic2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#entirePicContainer {
+  padding-top: 10vh;
+  height: 60vh;
+}

@@ -1,0 +1,85 @@
+.container5 {
+  width: 100vw;
+  height: 52vh;
+  background: linear-gradient(to right, #436a91, #5e90c2 90%);
+}
+
+.innerContainer5 {
+  height: 52vh;
+  width: 50vw;
+  margin: auto;
+}
+
+#border5 {
+  border-bottom: 5px solid #f8a322;
+  padding-top: 1vh;
+  width: 11vw;
+  margin: auto;
+}
+
+#text5 {
+  margin: auto;
+  width: 25vw;
+  padding-top: 7vh;
+  text-align: center;
+}
+
+#h5 {
+  margin: auto;
+  width: auto;
+  color: white;
+}
+
+.contactContainer {
+  display: flex;
+  width: auto;
+  padding-top: 20px;
+  justify-content: center;
+  margin: auto;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#button5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputs {
+  padding: 13px;
+  background: #3a5c7d;
+  border: 1px solid #707070;
+  color: white;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.inputs::placeholder {
+  color: white;
+}
+
+#input4 {
+  padding-bottom: 16%;
+  margin: 10px;
+}
+
+#contactbutton {
+  width: 190px;
+  height: 36px;
+  background: #f8a322;
+  border-radius: 5px;
+  margin-right: 3%;
+  text-align: center;
+  color: white;
+  border: 1px solid #707070;
+}

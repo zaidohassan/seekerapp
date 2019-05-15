@@ -1,0 +1,30 @@
+.container {
+  background: url('../../section3background.svg');
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+}
+
+.innerContainer {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  padding-top: 20vh;
+}
+
+#p3 {
+  padding: 4%;
+  padding-bottom: 5%;
+  font-size: 28px;
+  letter-spacing: 1px;
+  width: 20vw;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#border3 {
+  border-bottom: 5px solid #f8a322;
+  width: 20vw;
+  margin: auto;
+}

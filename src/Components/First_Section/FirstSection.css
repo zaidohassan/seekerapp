@@ -1,0 +1,117 @@
+.FirstSection {
+  background: url('../../background2.svg');
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+  /* position: relative; */
+}
+
+@media (min-width: 1550px) {
+  .FirstSection {
+    background: url('../../background.svg');
+  }
+}
+/* .FirstSection:before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 200% 90% 00% 0%;
+  width: 50vw;
+  height: 10vh;
+  background-color: black;
+  right: 50vw;
+  top: 75vh;
+} */
+
+.FirstSectionContainer {
+  height: 55vh;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.all {
+  color: white;
+}
+
+.firstsectionheader {
+  letter-spacing: 0.5px;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+
+#ConnectingThe {
+  color: orange;
+}
+
+.firstsectionparagraph {
+  width: 70%;
+  font-size: 26px;
+  margin: auto;
+}
+
+.firstsectionbuttonDiv {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 2%;
+}
+
+.firstsectionbutton {
+  padding: 10px 25px;
+  border: none;
+  background: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  margin: auto;
+}
+
+.firstsectionbuttonApp {
+  border-radius: 0px 20px 20px 20px;
+}
+
+.firstsectionbuttonPlay {
+  border-radius: 20px 0px 20px 20px;
+}
+
+.playstoreimg {
+  padding-right: 4%;
+}
+
+.applestoreimg {
+  padding-right: 2.5%;
+}
+
+#text {
+  width: 80%;
+  height: 1%;
+  padding-top: 1%;
+}
+
+@media (max-width: 600px) {
+  .FirstSection {
+    background: url(../../backgroundMobile.svg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    /* background-size: 1500px; */
+    width: auto;
+  }
+  .FirstSectionContainer {
+    width: auto;
+    margin-top: 10%;
+  }
+  .firstsectionbuttonDiv {
+    width: auto;
+    padding: 5%;
+  }
+  .firstsectionparagraph {
+    width: 90%;
+  }
+  .firstsectionheader {
+    font-size: 45px;
+  }
+}
